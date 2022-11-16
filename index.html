@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+<link rel="stylesheet" href="src/styles.css">
+    <title>MY Weather App</title>
+</head>
+<body>
+   <div class="container">
+    <div class="container-wrapper">
+    <div class="wrapper">
+      <form id="form-search" class="mb-4">
+        <div class="row">
+          <div class="col-9">
+        <input type="search" placeholder="Search a city" class="form-control" id="city-input" autocomplete="off">
+        </div>
+        <div class="col-3">
+          <input type="submit" value="search" class="btn btn-info w-100 search" id="search">
+        </div>
+        </div>
+      </form>
+            <div class="row">
+             <div class="col-6">
+             <img src="" alt="" id="icon">
+             
+             <h1 class="temp" id="celcius"></h1> 
+             <p id="degree" ><strong> <a href="#" id="celcius-degree" class="active"> °C</a> |<a href="#" id ="fahrenheit">°F</strong></a> </p>
+            
+              <ul class="humidity-wind">
+              <li>Humidity <span id="humidity" ></span>%</li>
+              <li>Wind:  <span id="wind"></span> km/h</li>
+            </ul>
+
+           </div>
+               <div class="col-6">
+                 <h1 class="ph" id="city-name"></h1>
+                   <ul id="sat">
+                       <li  id="date" ><li>
+                         <li id="weatherCondition"></li>
+                    </ul>
+         
+                </div>
+           </div>
+           
+           </div>
+             <small class="link">
+            <a href="#" target="_blank" class="github-link" >Open-Source code </a>by Ezinne Blessing Uche-Agbaeze
+     </small>
+           
+     </div>
+   
+     </div>
+     <script src="src/app.js"></script>

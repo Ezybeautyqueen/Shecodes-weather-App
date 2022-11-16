@@ -1,0 +1,91 @@
+body{
+      font-family: Arial, Helvetica, sans-serif;
+
+}
+.wrapper{
+    border: 1px solid  rgb(230, 248, 255);
+    border-radius:7px;
+    padding: 25px;
+    background:rgb(251, 252, 252);
+
+}
+.container-wrapper,#github-link{
+    max-width: 600px;
+    margin: 45px auto;
+    padding: 0;
+    margin-bottom: 10px;
+    padding: 25px;
+    text-align: center;
+}
+.temp{
+    color: black;
+    display: inline;
+    font-size: 24px;
+    font-weight: 100;
+    line-height: 28px;
+    top: 10px;
+}
+ #degree{
+    font-size: 14px;
+    top: -7px;
+    display: inline-block;
+    padding-top: 0px;
+    position: relative;
+    text-decoration: none;
+    list-style: none;
+}
+ul,li{
+    margin-top:0;
+    position: relative;
+    }
+
+
+li{
+    list-style: none;
+    color: rgb(41, 41, 41);
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 19px;
+    margin: 0;
+    padding:0;
+    font-size: 16px;
+    }  
+ small,#github-link{
+    text-align: center;
+    display: inline;
+    text-align: center;
+    margin :0 auto;
+    
+ }
+
+ .ph{
+     display: inline;
+    font-size: 24px;
+    font-weight: 100;
+    line-height: 28px;
+    top: 10px;
+    position: relative;
+    margin-left: 10px;
+}
+#sat{
+    padding: 15px;
+    margin-bottom: 5px;
+}
+#fahrenheit{
+    text-decoration: none;
+    margin: 2px;
+}#search{
+    position: relative;
+    margin-left: 0;
+}.active{
+    color: black;
+    cursor: default;
+    text-decoration: none;
+}
+.active:hover{
+    color: black;
+}
+.search{
+    color: rgb(252, 253, 254);
+    background: skyblue;
+}

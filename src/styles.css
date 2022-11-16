@@ -88,4 +88,6 @@ li{
 .search{
     color: rgb(252, 253, 254);
     background: skyblue;
+    width: 50px;
+    display: inline;
 }

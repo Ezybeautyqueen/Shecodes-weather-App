@@ -6,7 +6,7 @@ body{
     border: 1px solid  rgb(230, 248, 255);
     border-radius:7px;
     padding: 25px;
-    background:rgb(251, 252, 252);
+    background:pink;
 
 }
 .container-wrapper,#github-link{

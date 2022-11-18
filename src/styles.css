@@ -10,7 +10,7 @@ body{
 
 }
 .container-wrapper,#github-link{
-    max-width: 600px;
+    max-width: 650px;
     margin: 45px auto;
     padding: 0;
     margin-bottom: 10px;
@@ -74,9 +74,9 @@ li{
 #fahrenheit{
     text-decoration: none;
     margin: 2px;
-}#search{
+/* }#search{
     position: relative;
-    margin-left: 0;
+    margin-left: 0; */
 }.active{
     color: black;
     cursor: default;
@@ -88,6 +88,17 @@ li{
 .search{
     color: rgb(252, 253, 254);
     background: skyblue;
-    width: 50px;
+    /* width: 110px; */
     display: inline;
+    position: relative;
+    margin-left: 0;
+    padding: 0%;
+    max-width: 100px;
+}
+button{
+    width:100px;
+    margin-left: 0;
+    display: inline;
+    position:relative ;
+    left: 10;
 }

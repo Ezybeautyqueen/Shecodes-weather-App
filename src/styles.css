@@ -6,16 +6,21 @@ body{
     border: 1px solid  rgb(230, 248, 255);
     border-radius:7px;
     padding: 25px;
-    background:pink;
+    background:rgb(248, 211, 217);
 
 }
-.container-wrapper,#github-link{
+.container-wrapper{
     max-width: 650px;
     margin: 45px auto;
     padding: 0;
     margin-bottom: 10px;
     padding: 25px;
+
+}
+.container-wrapper,#github-link{
     text-align: center;
+    text-decoration: none;
+    font-size: 17px;
 }
 .temp{
     color: black;
@@ -50,13 +55,6 @@ li{
     padding:0;
     font-size: 16px;
     }  
- small,#github-link{
-    text-align: center;
-    display: inline;
-    text-align: center;
-    margin :0 auto;
-    
- }
 
  .ph{
      display: inline;
@@ -74,9 +72,7 @@ li{
 #fahrenheit{
     text-decoration: none;
     margin: 2px;
-/* }#search{
-    position: relative;
-    margin-left: 0; */
+
 }.active{
     color: black;
     cursor: default;
@@ -88,7 +84,6 @@ li{
 .search{
     color: rgb(252, 253, 254);
     background: skyblue;
-    /* width: 110px; */
     display: inline;
     position: relative;
     margin-left: 0;
